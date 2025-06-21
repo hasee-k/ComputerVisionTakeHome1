@@ -42,7 +42,7 @@ def main():
     block_average(path, 3, False)
     block_average(path, 5, False)      
     block_average(path, 7, False)
-    # RGB
+    # RGB 
     block_average(path, 3, True) 
     block_average(path, 5, True)
     block_average(path, 7, True)

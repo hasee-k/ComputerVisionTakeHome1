@@ -12,8 +12,6 @@ def reduce_intensity_levels(image_path, levels, color=True):
         clr = "Grayscale"   
      
     factor = 256 // levels
-
-    # Apply reduction to each channel
     reduced_img = (img // factor) * factor
 
  

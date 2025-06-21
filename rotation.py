@@ -5,8 +5,6 @@ import os
 
 def rotate_image(image_path, angle):
     img = cv2.imread(image_path)
-    if img is None:
-        raise ValueError(f"Image not found: {image_path}")
         
     (h, w) = img.shape[:2]
     center = (w // 2, h // 2)
