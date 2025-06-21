@@ -5,7 +5,7 @@ This project includes Python scripts for basic image processing tasks using Open
 ## Features
 
 1. **Reduce Intensity Levels**
-   - Reduces grayscale or RGB image intensity levels (e.g., from 256 to 2, 4, 8, ...).
+   - Reduces grayscale or RGB image intensity levels.
 
 2. **Spatial Averaging (Blurring)**
    - Applies a simple average filter using kernel sizes like 3x3, 10x10, and 20x20.
