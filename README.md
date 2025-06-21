@@ -16,13 +16,8 @@ This project includes Python scripts for basic image processing tasks using Open
 4. **Block Averaging (Resolution Reduction)**
    - For each non-overlapping block (3x3, 5x5, etc.), replaces all pixels with the block average to simulate resolution reduction.
 
-## Requirements
-
-- Python 3.x
-- OpenCV (`cv2`)
-- NumPy
 
 Install dependencies using:
 
 ```bash
-pip install opencv-python numpy
+pip install -r requirements.txt
