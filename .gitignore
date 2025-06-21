@@ -2,3 +2,4 @@ cv_env/*
 *.pyc
 *.pyo
 __pycache__
+output/
